@@ -61,6 +61,12 @@ body {
 .titles {
   margin: 50px;
 }
+@media (max-width: 768px){
+  .titles {
+    margin:25px;
+  }
+  
+}
 
 .titles h1 {
   Font-Size: 60px;
@@ -91,7 +97,15 @@ body {
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
 }
+@media (max-width: 768px){
+  .button {
+    margin:5px;
+  }
+  
+}
+
 .button span {
   font-size: 16px;
   font-family: avenir;
@@ -211,12 +225,41 @@ body {
   justify-content: center;
   margin: 5px;
 }
+@media (max-width: 768px){
+  .pricings {
+    flex-direction: column;
+  }
+  
+}
+ .lista {
+   text-align: center;
+
+ }
+ @media (max-width: 768px){
+  .lista {
+    text-align: left;
+  }
+  
+}
+
 .cards {
   width: 216px;
   height: 304px;
   background: #181818;
   border-radius: 4px;
   margin: 0px 20px;
+}
+@media (max-width: 768px){
+  .cards {
+    margin: 5px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  
 }
 .cards .title {
   display: inline-block;
@@ -230,6 +273,19 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+@media (max-width: 768px){
+  .cards .title {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0px;
+  }
+  
+}
+
 .cards .prices {
   font-size: 60px;
   display: block;
@@ -238,6 +294,17 @@ body {
   color: white;
   font-family: Avenir;
 }
+@media (max-width: 768px){
+  .cards .prices {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 30px;
+    display: block;
+    margin: 0px;
+  }
+}
 
 .cards button {
   width: 134px;
@@ -245,6 +312,13 @@ body {
   border-radius: 4px;
   cursor: pointer;
   outline: none;  
+}
+@media (max-width: 768px){
+  .cards button {
+    width: 39px;
+    height: 39px;
+    border-radius: 50px;
+  }
 }
 
 
