@@ -3,7 +3,7 @@ body {
   padding: 0px;
 }
 @font-face {
-  font-family: Avenir;
+  font-family: "Avenir";
     src: url('../fonts/AvenirLTStd-Roman.otf'),
          url('../fonts/AvenirLTStd-Medium.otf'), 
          url('../fonts/AvenirLTStd-Book.otf'), 
