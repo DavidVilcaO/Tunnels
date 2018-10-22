@@ -4,10 +4,10 @@ body {
 }
 @font-face {
   font-family: "Avenir";
-    src: url('../fonts/AvenirLTStd-Roman.otf'),
-         url('../fonts/AvenirLTStd-Medium.otf'), 
-         url('../fonts/AvenirLTStd-Book.otf'), 
-         url('../fonts/AvenirLTStd-Black.otf'), 
+    src: url('../fonts/AvenirLTStd-Roman.woff'),
+         url('../fonts/AvenirLTStd-Medium.woff'), 
+         url('../fonts/AvenirLTStd-Book.woff'), 
+         url('../fonts/AvenirLTStd-Black.woff'), 
 
 }
 .bg {
